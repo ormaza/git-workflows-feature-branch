@@ -98,7 +98,12 @@ public class Calculator {
      * @return
      */
     public int div(int a, int b) {
-        return a%b;
+<<<<<<< HEAD
+        if(b == 0)
+          throw new IllegalArgumentException("Can not divide by zero");
+=======
+>>>>>>> 101eb0be4883b24c2eff7c961f87140675e40065
+        return a/b;
     }
 
 
@@ -145,7 +150,7 @@ public class Calculator {
      * @return
      */
     public double square(double a) {
-        return Math.abs(a);
+        return  Math.sqrt(a);
     }
 
 
